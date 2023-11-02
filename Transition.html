@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div{
+            height: 100px;
+            width: 200px;
+            background-color: orange;
+            transition: width 2s,height 2s;
+            transition-delay: 2s;
+        }
+        div:hover{
+            width: 500px;
+            height: 500px;
+        } */
+        div
+        {
+            height: 100px;
+            width: 100px;
+            background-color: orange;
+            transition: width 2s,height 2s,transform 2s;
+        }
+        div:hover
+        { 
+            width: 300px;
+            height: 300px;
+            transform: rotate(180deg);
+        }
+        .trans1{
+            transition-timing-function: linear;
+        }
+        .trans2{
+            transition-timing-function: ease;
+        }
+        .trans3{
+            transition-timing-function: ease-in;
+        }
+        .trans4{
+            transition-timing-function: ease-in-out;
+        }
+        .trans5{
+            transition-timing-function: ease-out;
+        }
+        .trans6{
+            transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+    </style>
+</head>
+<body>
+    <!-- <div></div> -->
+    <div class="trans1"></div><br><br>
+    <div class="trans2"></div><br><br>
+    <div class="trans3"></div><br><br>
+    <div class="trans4"></div><br><br>
+    <div class="trans5"></div><br><br>
+    <div class="trans6"></div><br><br>
+</body>
+</html>

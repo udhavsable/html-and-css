@@ -1,0 +1,11 @@
+.tab1
+{
+    background-color: aqua;
+    border-collapse: collapse;
+    font-size: 30px;
+    color: brown;
+}
+.tab1 th,.tab1 td
+{
+    border: 2px dashed goldenrod;
+}

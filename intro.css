@@ -1,0 +1,32 @@
+h6{
+    color: orange;
+    font-size: 30px;
+    font-family: algerian;
+}
+.para
+{
+    color: blue;
+    background-color: cyan;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#abc
+{
+    color: black;
+    background-color:yellow;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.shadow
+{
+    color: orange;
+}
+.bowl
+{
+    color: blue;
+
+}
+.liquid
+{
+    color: black;
+}

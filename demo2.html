@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Design Form</title>
+</head>
+<body>
+    <h1>Home Design Form</h1>
+    <form action="submit_design.php" method="post">
+        <fieldset>
+            <legend>Basic Information</legend>
+            <label for="house_name">House Name:</label>
+            <input type="text" id="house_name" name="house_name" required><br>
+
+            <label for="architect">Architect:</label>
+            <input type="text" id="architect" name="architect"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Rooms</legend>
+            <label for="bedrooms">Number of Bedrooms:</label>
+            <input type="number" id="bedrooms" name="bedrooms" min="0" value="0"><br>
+
+            <label for="bathrooms">Number of Bathrooms:</label>
+            <input type="number" id="bathrooms" name="bathrooms" min="0" value="0"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Features</legend>
+            <label>Special Features:</label><br>
+            <input type="checkbox" id="pool" name="special_features" value="pool">
+            <label for="pool">Swimming Pool</label><br>
+
+            <input type="checkbox" id="garden" name="special_features" value="garden">
+            <label for="garden">Garden</label><br>
+        </fieldset>
+
+        <input type="submit" value="Submit Design">
+    </form>
+</body>
+</html>

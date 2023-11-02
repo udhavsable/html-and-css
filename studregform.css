@@ -1,0 +1,69 @@
+input[type=text]
+{
+    height: 25px;
+    width: 200px;
+    background-color: blueviolet;
+    color: red;
+    font-size: 20px;
+}
+input[type=textarea]
+{
+    height: 25px;
+    width:200px;
+    background-color: aqua;
+    color:red ;
+    font-size: 20px;
+}
+input[type=email],input[type=password]
+{
+    border: 2px solid purple;
+    border-radius: 5px;
+    background-color: pink;
+    padding: 2px;
+}
+input[type=search]
+{
+    background-image: url('download.jpg');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    transition:width 10s;
+}
+input[type=search]:focus{
+    width: 200px;
+    border-radius: 5px;
+    }
+   button{
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    color: white;
+    background-color: blue;
+     border: 2px solid blue;
+    border-radius: 50px;
+}
+body{
+    background-color: peru;
+}
+form{
+  color: white;
+  background-color: purple;
+  padding: 20px;
+  margin: auto;
+  width: 500px;
+  font-size: 18px;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+div{
+    width: 500px;
+    border-color: pink;
+    border: 2px solid purple;
+    padding: 50px;
+    margin: auto;
+}

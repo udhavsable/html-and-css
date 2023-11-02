@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flx
+        {
+            height: 500px;
+            width: 500px;
+            border: 2px solid blue;
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+            flex-direction: row-reverse;
+            justify-content: center;
+
+        }
+        .items
+        {
+            background-color: black;
+            flex-basis: 150px;
+        }
+        .flx .items:nth-of-type(2)
+        {
+            flex-grow: 2;
+            flex-shrink: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="flx ">
+        <div class="items"><img src="images/1.jpg" height="100" width="100"><p>1.jpg</p></div>
+        <div class="items"><img src="images/download (1).jpg" height="100" width="100"></div>
+        <div class="items"><img src="images/download (2).jpg" height="100" width="100"></div>
+        <div class="items"><img src="images/download (3).jpg" height="100" width="100"></div>
+        <div class="items"><img src="images/images.jpg" height="100" width="100"></div>
+        <div class="items"><img src="images/download (3).jpg" height="100" width="100"></div>
+    </div>
+</body>
+</html>

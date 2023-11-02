@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div p{
+            color: red;
+        } */
+        div>p{
+            font-size: 40px;
+        }
+        div+p{
+            color: blue;
+            font-family: algerian;
+        }
+        div~p{
+            color: purple;
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        }
+        div>.p1{
+            color: yellow;
+        }
+        .p1{
+            display: none;
+        }
+        div:hover .p1{
+             display: block ;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>combinators nd pseudo class</h2>
+        <p>The uddhav sable</p>
+        <p class="p1">The uddhav sable</p>
+        <p>The uddhav sable</p>
+        <p>The uddhav sable</p>
+    </div>
+    <p>King of own world</p>
+    <p>the god mood is everytime on</p>
+</body>
+</html>

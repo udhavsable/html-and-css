@@ -1,0 +1,19 @@
+.flx
+{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 50px;
+}
+.image1
+{
+    height: 400px;
+    width: 300px;
+}
+h1{
+    font-size: 70px;
+    columns: gray;
+}
+p{
+    font-size: 20px;
+}
